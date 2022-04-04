@@ -34,8 +34,9 @@ ul {
 
 #descricaobasica {
    position: absolute;
-   left: 260px;
+   left: 250px;
    top: 195px;
+   margin: 10px;
 }
 
 .Sobre {
@@ -48,3 +49,9 @@ ul {
     padding: 12px 12px 12px;
     background-color: rgb(57, 5, 105);
 }
+
+#habilidades li:nth-child(odd) {
+    background-color: rgb(57, 5, 105);
+    padding: 3px;
+}
+ 
