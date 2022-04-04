@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+#nome {
+font-family: 'Lobster', cursive;
+font-size: 50px;
+color: white;
+text-align: center;
+}
+
+
+#descriçaobreve {
+    font-style: italic;
+}
+
+body {
+    background-color: #201f20d7;
+}
+
+.different-tag {
+     color:blueviolet
+}
+  
+ p {
+     color: white;
+ }
+
+.titlediferent {
+  color: white;
+}
+
+ul {
+   color: white;
+}
+
+#descricaobasica {
+   position: absolute;
+   left: 260px;
+   top: 195px;
+}
+
+.Sobre {
+    position: absolute;
+    left: 262px;
+    top: 148px;
+}
+
+#minha-foto {
+    padding: 12px 12px 12px;
+    background-color: rgb(57, 5, 105);
+}

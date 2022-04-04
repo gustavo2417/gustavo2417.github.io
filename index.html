@@ -5,51 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
-      <style>
-       @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
-         #nome {
-        font-family: 'Lobster', cursive;
-        font-size: 50px;
-       }
-         
-
-         #descriçaobreve {
-             font-style: italic;
-         }
-
-         body {
-             background-color: #202023;
-         }
-           
-          
-
-      </style>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="nome">Gustavo da Rocha Lopes</h1>
-    <img src="./imagens/fotorecente.jpg" alt="minha foto recente" width="200px">
-    <h2 >Sobre mim:</h2>
-     <p id="descriçaobreve"> Sou <strong>brasileiro</strong> e moro em <strong>Cotia/Sp</strong> , sou uma pessoa muito quieta <br> que gosta de jogar , assistir animes , escutar musicas e sair para lugares diferentes.
-     </p>
+        <div>
+        <h1 id="nome">Gustavo da Rocha Lopes</h1>
+        </div>
+           <div>
+        <img src="./imagens/fotorecente.jpg" alt="minha foto recente" width="210px" id="minha-foto">
+           </div>
+        <h2 class="titlediferent Sobre">Sobre mim:</h2>
+             
+              <div id="descricaobasica">
+        <p id="descriçaobreve"> Sou <strong class="different-tag">brasileiro</strong> e moro em <strong class="different-tag">Cotia/Sp</strong> , sou uma pessoa muito quieta <br> que gosta de jogar , assistir animes , escutar musicas e sair para lugares diferentes.
+        </p>
+            </div>
+        <h3 class="titlediferent">Minhas habilidades</h3>
+            <ul> 
+                <li id="listaDeHabilidades"><strong>Aprendo rápido</strong></li>
+                <li>Sou focado</li>
+                <li>sou muito adaptativo</li>
+            </ul>
+        
+        <br>
+        <a href="./imagens/fotorecente.jpg">Minha foto</a> <br>
+        <a href="https://www.legiaodosherois.com.br/" target="_blank">blog que eu gosto</a>
+        <br>
+        <br>
+        <ul>
+            <li> <a href="#descriçaobreve">Sobre mim</a></li>
+            <li> <a href="#listaDeHabilidades">minhas habilidades</a> </li>
+            <li> <a href="#nome">Meu nome</a> </li>
+        </ul>
 
-     <h3 id="listaDeHabilidades">Minhas habilidades</h3>
-         <ul> 
-            <li><strong>Aprendo rápido</strong></li>
-            <li>Sou focado</li>
-            <li>sou muito adaptativo</li>
-         </ul>
-     
-     <br>
-     <a href="./imagens/fotorecente.jpg">Minha foto</a> <br>
-     <a href="https://www.legiaodosherois.com.br/" target="_blank">blog que eu gosto</a>
-      <br>
-      <br>
-     <ul>
-        <li> <a href="#descriçaobreve">Sobre mim</a></li>
-        <li> <a href="#listaDeHabilidades">minhas habilidades</a> </li>
-        <li> <a href="#nome">Meu nome</a> </li>
-     </ul>
-
-</body>
-</html>
+    </body>
+    </html>
